@@ -33,6 +33,7 @@ from .filter_by_client_ip import FilterByClientIpPlugin
 from .filter_by_url_regex import FilterByURLRegexPlugin
 from .modify_chunk_response import ModifyChunkResponsePlugin
 from .redirect_to_custom_server import RedirectToCustomServerPlugin
+from .fec import FecPlugin
 
 
 __all__ = [
@@ -53,4 +54,5 @@ __all__ = [
     'CustomDnsResolverPlugin',
     'CloudflareDnsResolverPlugin',
     'ProgramNamePlugin',
+    'FecPlugin'
 ]
